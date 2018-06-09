@@ -59,3 +59,23 @@
 * Recomenda-se **estudar** o código-fonte de **outros programadores**.
 * Ao ler código de desenvolvedores experientes **evita-se os erros** cometidos por ele e **obtém-se insights** em minutos o que ele demorou meses ou anos para aprender.
 * Recomenda-se utilizar a **repetição espaçada** para te ajudar no aprendizado.
+
+## [7. Getting Started With JavaScript](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270654)
+
+* Pode-se **utilizar o JavaScript** no navegador, no lado do servidor ou em dispositivos de IoT.
+* Pode-se utilizar também para criar **aplicativos nativos** para smartphones ou desktop.
+* O JavaScript está **em todo lugar** e é, com grance certeza, a linguagem **mais popular** e mais **largamente utilizada** no mundo.
+* A **maioria dos programadores** devem/deveriam aprender JavaScript.
+* O **conceitos** que serão aprendidos poderão ser utilizados em várias linguagens.
+* Um arquivo JavaScript pode ser executado em uma **aplicação web** através da tag script **diretamente no código** ou referenciando um **arquivo externo**.
+
+## [8. Primitive Data Types](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270656)
+
+* Os **dados** são um dos **blocos de construção** dos aplicativos.
+* O **String** é um **tipo de dados primitivo** em JavaScript, ou seja, não pode ser quebrado em outros tipos.
+* **Number** e **Boolean** também são **tipos de dados primitivo** em JavaScript.
+* Define-se uma "variável" em JavaScript utilizando `const` como em `const calories = 180`.
+* Um dos principais **princípios de programação funcional** são **dados imutáveis**, ou seja, *dados que não são alterados*.
+* Existem as palavras-chaves `var` e `let` para a definição de variáveis em JavaScript, mas elas **não são utilizadas** em programação funcional.
+* Em JavaScript, os **tipos das variáveis** são definidos **ao avaliar** o valor da variável, ou seja, é feito de forma implícita.
+* Os **operadores** operam diferentemente de acordo com os tipos. O operador `+` é utilizado para **somar valores** do **tipo numérico** ou para **concatenar strings** do **tipo texto**.
