@@ -99,3 +99,18 @@
 ## [11. Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270674)
 
 * Uma **função** permite criar uma **lógica reutilizável** ou **transformar valores** de um tipo em outro tipo.
+
+## [12. Immutable Data](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270680)
+
+* Um **dado imutável** é um dado que não muda depois que foi criado.
+* Uma `String` é um tipo de dado imutável.
+* Recomenda-se evitar **dados mutáveis**.
+* Os *dados imutáveis* são **mais simples** que os *dados imutáveis*.
+* Ao utilizar dados imutáveis não precisa se **preocupar** ao passá-los para uma *função de terceiros*.
+* Isso permite **maior confiança** e **evita que erros** ocorram.
+* O **simples** leva a um **código menos complicado** que leva a **menos bugs** que é **fácil de entender, testar e manter**.
+* Não confundir simples com fácil.
+* Criar **código simples** não é fácil, é difícil.
+* O JavaScript não possui suporte à **tipos de dados imutáveis**.
+* O JavaScript **não lida muito bem** com dados imutáveis. Ele permite, por exemplo, **alterar uma propriedade** de um objeto que foi definido utilizando `const`.
+* A palavra-chave `const` previne contra uma **reatribuição**.
