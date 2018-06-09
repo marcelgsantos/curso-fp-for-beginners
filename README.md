@@ -79,3 +79,14 @@
 * Existem as palavras-chaves `var` e `let` para a definição de variáveis em JavaScript, mas elas **não são utilizadas** em programação funcional.
 * Em JavaScript, os **tipos das variáveis** são definidos **ao avaliar** o valor da variável, ou seja, é feito de forma implícita.
 * Os **operadores** operam diferentemente de acordo com os tipos. O operador `+` é utilizado para **somar valores** do **tipo numérico** ou para **concatenar strings** do **tipo texto**.
+
+## [9 - Object Types](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270664)
+
+* A **estrutura de dados** utilizada para **agrupar valores relacionados** é chamada de **objeto literal**.
+* O **objeto** é um **tipo de dado complexo**.
+* O termo **objeto** remete à **programação orientada a objetos** e, para não causar confusão, pode-se utilizar o termo **registro** no contexto de **programação funcional**.
+* Pode-se acessar a **propriedade** de um objeto utilização a **notação de ponto**.
+* Ao tentar acessar uma **propriedade inexistente** de um objeto, o valor `undefinded` será retornado.
+* `undefined` trata-se de um **tipo primitivo** em JavaScript.
+* O `undefined` geralmente é causado por algum **problema na lógica**.
+* Para representar **datas** em JavaScript utiliza-se o tipo `Date`.
