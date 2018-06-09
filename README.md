@@ -90,3 +90,12 @@
 * `undefined` trata-se de um **tipo primitivo** em JavaScript.
 * O `undefined` geralmente é causado por algum **problema na lógica**.
 * Para representar **datas** em JavaScript utiliza-se o tipo `Date`.
+
+## [10. Arrays](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270672)
+
+* Um **array** é uma estrutura de dados que representa uma **lista de valores** de *quaisquer tipos de dados*.
+* Ao acessar um **índice inexistente** de um array será retornado `undefined`.
+
+## [11. Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270674)
+
+* Uma **função** permite criar uma **lógica reutilizável** ou **transformar valores** de um tipo em outro tipo.
