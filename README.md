@@ -204,3 +204,82 @@ console.log(personWithoutId);
 * Ela pode ser utilizada para **expandir as propriedades** de um *objeto original* em um *novo objeto*.
 * Essa operação é conhecida como ***spread*** e é utilizada do **lado direito** da atribuição.
 * A operação de ***destructuring*** é utilizada do **lado esquerdo** da atribuição e é utilizada para **coletar informações**.
+
+## [14. Updating Arrays, In An Immutable Way](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270690)
+
+* Pode-se **adicionar um item** em um array de **forma imutável** utilizando o ***spread operator***.
+```javascript
+// 01. Adding an item into an array in an immutable way (using spread operator)
+
+const people = [
+    {id: 1, name: 'Alice', age: 23},
+    {id: 2, name: 'Bob', age: 25},
+];
+
+const person = {
+    id: 3, 
+    name: 'Clara', 
+    age: 19,
+};
+
+const updatedPeople = [...people, person];
+
+console.log(people, updatedPeople);
+```
+* O arrays em JavaScript possuem a função `map` que permite realizar a **transformação** de cada um dos itens do array resultando em um **novo array**.
+```javascript
+// 02 - mapping an array doubling each item
+
+const numbers = [1, 2, 3];
+
+function double(number) {
+    return number * 2;
+}
+
+const doubledNumbers = numbers.map(double);
+
+console.log(numbers, doubledNumbers);
+```
+* Em JavaScript, uma **função** também é um **valor** como *números*, *strings*, *booleanos* e *objetos*, ou seja, uma função pode ser *passada como parâmetro*, *atribuída a uma variável* e *retornada em uma chamada de função*.
+* As funções são consideradas cidadãs de **primeira classe** em JavaScript.
+* Para **atualizar um item de um array** de **forma imutável** utiliza-se a **função `map`** de um array.
+```javascript
+// 03. Updating an item from an array in an immutable way (using map function)
+
+const people = [
+    {id: 1, name: 'Alice', age: 23},
+    {id: 2, name: 'Bob', age: 25},
+    {id: 3, name: 'Clara', age: 19},
+];
+
+const updatedPeopleName = people.map(updateName);
+
+function updateName(person) {
+    if (person.id === 2) {
+        return {
+            ...person,
+            name: 'Bill',
+        };
+    }
+    return person;
+}
+
+console.log(people, updatedPeopleName);
+```
+* O arrays em JavaScript possuem a função `filter` que permite realizar a **filtragem** de itens de um array resultando em um **novo array**.
+* Para **remover um item de um array** de **forma imutável** utiliza-se a **função `filter`** de um array.
+```javascript
+// 04. Removing an item from an array in an immutable way (using map function)
+
+const people = [
+    {id: 1, name: 'Alice', age: 23},
+    {id: 2, name: 'Bob', age: 25},
+    {id: 3, name: 'Clara', age: 19},
+];
+
+const removedPeople = people.filter(function(person) {
+    return person.id !== 1;
+});
+
+console.log(people, removedPeople);
+```
