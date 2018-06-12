@@ -114,3 +114,93 @@
 * O JavaScript não possui suporte à **tipos de dados imutáveis**.
 * O JavaScript **não lida muito bem** com dados imutáveis. Ele permite, por exemplo, **alterar uma propriedade** de um objeto que foi definido utilizando `const`.
 * A palavra-chave `const` previne contra uma **reatribuição**.
+
+## [13. Updating Objects, In An Immutable Way](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270688)
+
+* O **estado** é o que o seu *programa se lembra*.
+* O **estado** é algo que *acontece ao longo do tempo* que o seu *programa se lembra ou acompanha*.
+* Operações como *incluir*, *alterar* e *apagar* refere-se a **manutenção de estado** da sua aplicação.
+* Se em programação funcional fala-se em **dados imutáveis**, como é que é feita a **manutenção de estado**?
+* Todo programa possui **estado**.
+* O estado são **dados** que são *alterados* ou *mutados*.
+* Entender a relação entre **manter estados** e **dados imutáveis** é o coração da programação funcional.
+* É importante conhecer como realizar a **manipulação de objetos** de uma **forma imutável**.
+* Pode-se **adicionar uma propriedade** em um objeto de **forma imutável** criando um *novo objeto* com a *nova propriedade* e **copiar os valores** das propriedades do *objeto antigo* para as propriedades do *objeto novo*.
+```javascript
+// 01 - Adding a new property in an immutable way
+// approach 1 - copying the old properties
+
+const person = {
+    id: 1,
+    name: 'John',
+};
+
+const updatedPerson = {
+    id: person.id,
+    name: person.name,
+    age: 25,
+};
+
+console.log(person, updatedPerson);
+```
+* A abordagem de **copiar os valores** das propriedades do objeto antigo para as propriedades do objeto novo é **bastate verbosa**.
+* Outra abordagem para **adicionar uma propriedade** em um objeto de **forma imutável** é criando um *novo objeto* com a *nova propriedade* e utilizar o ***spread operator*** para **copiar as propriedades e valores** do *objeto antigo* para o *objeto novo*.
+```javascript
+// 02 - Adding a new property in an immutable way
+// approach 2 - using spread operator
+
+const person = {
+    id: 1, 
+    name: 'John',
+};
+
+const updatedPerson = {
+    ...person,
+    age: 25,
+};
+
+console.log(person, updatedPerson);
+```
+* O ***spread operator*** `...` é uma funcionalidade recente do JavaScript mas que pode ser utilizada com tranquilidade pois possui **suporte de transpilers** como o Babel.
+* O ***spread operator*** faz com que as **propriedades** do *objeto original* sejam **injetadas** no *novo objeto*.
+* É possível também **atualizar o valor** de uma propriedade do *objeto original* no *novo objeto*.
+```javascript
+// 03 - Updating a property in an immutable way (using spread operator)
+
+const person = {
+    id: 1, 
+    name: 'John',
+};
+
+const updatedPerson = {
+    ...person,
+    name: 'Bob',
+    age: 25,
+};
+
+console.log(person, updatedPerson);
+```
+* Pode-se **remover uma propriedade** de um objeto de **forma imutável** através de ***destructuring assignment***.
+```javascript
+// 04 - Example how destructuring assignment works
+
+const id = updatedPerson.id;
+const name = updatedPerson.name;
+
+const {id, name} = updatedPerson;
+
+console.log(id, name);
+```
+* Ao utilizar o ***destructuring assignment*** torna o seu código **mais conciso**.
+* O ***destructuring assignment*** permite que as propriedades de objetos sejam **desempacotadas** e **atrbuídas** à variáveis.
+```javascript
+// 05 - Removing a property in an immutable way (using destructuring assignment)
+
+const {id, ...personWithoutId} = updatedPerson;
+
+console.log(personWithoutId);
+```
+* A notação `...` faz **coisas diferentes** dependendo de onde é utilizado.
+* Ela pode ser utilizada para **expandir as propriedades** de um *objeto original* em um *novo objeto*.
+* Essa operação é conhecida como ***spread*** e é utilizada do **lado direito** da atribuição.
+* A operação de ***destructuring*** é utilizada do **lado esquerdo** da atribuição e é utilizada para **coletar informações**.
