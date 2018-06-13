@@ -283,3 +283,48 @@ const removedPeople = people.filter(function(person) {
 
 console.log(people, removedPeople);
 ```
+
+## [15. Summarize Information In An Array](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270694)
+
+* Pode-se utilizar a função `reduce` do JavaScript para realizar operações sobre um array como uma **somatória** ou o **agrupamento de valores**.
+```javascript
+// 01 - using reduce function to obtain the total
+
+const numbers = [1, 2, 3];
+
+function sum (x, y) {
+    return x + y;
+}
+
+const total = numbers.reduce(sum);
+
+console.log(total);
+```
+* Deve-se passar como argumento da função `reduce` uma **função de callback**.
+* O primeiro argumento da função de callback é o **valor acumulado** e o segundo argumento é **valor** do item atual do array.
+* Como *segundo argumento* da função `reduce` pode-se passar um valor inicial como **acumulador**.
+* O **valor do acumulador** pode ser de **qualquer tipo**.
+```javascript
+// 02 - using reduce function to group some values
+
+const grades = [60, 55, 80, 90, 99, 92, 75, 72];
+
+const letterGradeCount = grades.reduce(groupByGrade, {});
+
+function groupByGrade(acc, grade) {
+    const {a = 0, b = 0, c = 0, d = 0, f = 0} = acc;
+    if (grade >= 90) {
+        return {...acc, a: a + 1};
+    } else if (grade >= 80) {
+        return {...acc, b: b + 1};
+    } else if (grade >= 70) {
+        return {...acc, c: c + 1};
+    } else if (grade >= 60) {
+        return {...acc, d: d + 1};
+    } else {
+        return {...acc, f: f + 1};
+    }
+}
+
+console.log(letterGradeCount);
+```
