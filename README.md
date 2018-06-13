@@ -328,3 +328,26 @@ function groupByGrade(acc, grade) {
 
 console.log(letterGradeCount);
 ```
+
+## [16. Introduction to Currying](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270710)
+
+* Uma **função** é um valor como outro qualquer em JavaScript, ou seja, pode ser **passada como argumento** ou **retornada em uma chamada de função**.
+* Uma função que pode ser *passada como argumento* ou *retornada em uma chamada de função* é conhecida como **função de alta ordem**.
+* Uma **closure** é uma função que possui acesso ao **escopo externo**.
+```javascript
+// 01 - understading concepts like high-order functions and closures
+
+function greet(greeting) {
+    return function (name) {
+        return `${greeting} ${name}`;
+    };
+}
+
+console.log(greet('Good Morning')('John'));
+
+const friends = ['Alice', 'Bob', 'Carol', 'Dan'];
+
+const friendGreetings = friends.map(greet('Good Morning'));
+
+console.log(friendGreetings);
+```
