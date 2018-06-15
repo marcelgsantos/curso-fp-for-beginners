@@ -406,3 +406,23 @@ console.log(greetGoodMorning('Bob'));
 ```
 * A biblioteca Ramda.js possui **diversas funções** e todas são ***curried* por padrão**.
 * A biblioteca Ramda.js não **muda nenhum dado**.
+
+## [18. Pure Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270718)
+
+* O que mais será feito ao programar utilizando programação funcional vai ser a **transformação de dados** através de **funções**.
+* Existem as **funções puras** e as **funções impuras**.
+* As **funções impuras** podem ser chamadas de **procedures**.
+* As **características** de uma função pura são:
+    1. ter parâmetros de entrada
+    2. não depender do estado externo
+    3. retorno baseado nos valores de entrada
+    4. não devem causar efeitos colaterais
+        * são efeitos colaterais: (1) escrita em base de dados, (2) escrita em arquivos e (3) impressão de dados na tela
+* Não é fácil escrever **funções puras**.
+* Os **principais motivos** de se utilizar funções puras são:
+    * reusabilidade
+    * componibilidade
+    * facilidade de teste
+    * facilidade de cache
+* Escrever funções puras pode parecer **muito restritivo**, mas a restritividade é boa pois ajuda a **manter o foco**.
+* A **programação funcional** não é sobre não ter **estado**, mas sim sobre ter um **melhor controle** do estado.
