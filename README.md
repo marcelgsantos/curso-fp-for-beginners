@@ -351,3 +351,58 @@ const friendGreetings = friends.map(greet('Good Morning'));
 
 console.log(friendGreetings);
 ```
+
+## [17. Currying and Partial Application](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270714)
+
+* O ***currying*** é a técnica que permite *transformar uma função* que recebe **múltiplos argumentos** em *uma função* que recebe apenas **um argumento** e que *retorna uma função* que aceita os **argumentos restantes**.
+* A **aplicação parcial** é quando se executa uma função e passa apenas **parte de seus argumentos**.
+* A **aplicação parcial** permite fazer a **especialização** de uma *função mais genérica*.
+* Pode-se diferenciar **currying** de **aplicação parcial** da seguinte maneira:
+    * **currying** 
+        * é o que se faz quando se *projeta uma função*
+        * relacionado com a **criação da função**
+        * não relacionado com **dados**
+    * **aplicação parcial** 
+        * é o que se faz quando se *utiliza a função*
+        * relacionado com a **utilização da função**
+        * relacionado com **dados**
+* Pode-se utilizar uma função que permite realizar a **aplicação parcial** em uma função que não é *curried*.
+```javascript
+// 01 - using a helper function that allows to perform
+// partial application in a regular not curried function
+
+function add(x, y) {
+    return x + y;
+}
+
+const add3 = partial(add, [3]);
+
+console.log(add3(2)); // 5
+```
+* Na programação funcional utiliza-se **currying** e **aplicação parcial** a todo momento.
+* Na programação funcional deve-se levar em consideração a **ordem dos parâmetros**.
+* Os parâmetros mais **genéricos** devem vir *mais para o início* e os parâmetros mais **específicos** devem vir *mais para o final*.
+* Recomenda-se deixar o parâmetro sobre qual uma **função opera** mais para o final.
+* O JavaScript não possui **suporte nativo** para **currying** como nas *linguagens puramente funcionais* Elm ou Haskell.
+* A biblioteca Ramda.js possui **inúmeras funcionalidades** relacionadas a programação funcional.
+* Pode-se criar funções em JavaScript utilizando uma **sintaxe alternativa** conhecida por ***fat arrow*** ou **lambda**.
+```javascript
+// 02. using fat arrow syntax to define a function
+// and currying some functions using Ramda.js
+
+// uncurried function
+// const greet = (greeting, name) => `${greeting} ${name}`;
+
+// curried function using Ramda.js
+const greet = R.curry((greeting, name) => `${greeting} ${name}`);
+
+console.log(greet('Good Morning')('Alice'));
+console.log(greet('Good Morning', 'Alice'));
+
+// specialized version of `greet` function partially applied
+const greetGoodMorning = greet('Good Morning');
+
+console.log(greetGoodMorning('Bob'));
+```
+* A biblioteca Ramda.js possui **diversas funções** e todas são ***curried* por padrão**.
+* A biblioteca Ramda.js não **muda nenhum dado**.
