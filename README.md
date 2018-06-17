@@ -465,3 +465,8 @@ const countWords3 = R.pipe(R.split(' '), R.length);
 console.log(countWords3(sentence));
 ```
 * Pode-se utilizar a **função `pipe`** do Ramda.js para *compor funções* da esquerda para a direita. 
+
+## [20. HTML Introduction](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270724)
+
+* O HTML descreve a **estrutura do conteúdo** de uma página web.
+* O DOM é uma **estrutura de dados** que permite que o conteúdo da página seja **alterado** através de programação utilizando JavaScript.
