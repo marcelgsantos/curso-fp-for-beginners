@@ -426,3 +426,42 @@ console.log(greetGoodMorning('Bob'));
     * facilidade de cache
 * Escrever funções puras pode parecer **muito restritivo**, mas a restritividade é boa pois ajuda a **manter o foco**.
 * A **programação funcional** não é sobre não ter **estado**, mas sim sobre ter um **melhor controle** do estado.
+
+## [19. Function Composition](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270720)
+
+* A **composição de funções** permite criar uma nova função a partir de outras funções.
+* A **leitura do código** é muito importante e, por isso, não recomenda-se realizar o *aninhamento de chamada de funções*.
+* A **composição de funções** é uma solução *elegante* e *legível* e ajuda a evitar a utilização do *aninhamento de funções*.
+* O Ramda.js possui uma função que permite criar uma **nova função** a partir da *composição de funções*.
+* A **função `compose`** funciona da direita para a esquerda.
+```javascript
+// 01 - creating a new function from other functions by compostion
+
+const sentence = 'estava à toa na vida o meu amor me chamou pra ver a banda passar cantando coisas de amor';
+
+const wordList = R.split(' ', sentence);
+
+console.log(wordList);
+
+// obtaining the result from nested function call
+const wordCount = R.length(R.split(' ', sentence));
+// const wordCount = R.length(wordList);
+
+console.log(wordCount);
+
+// create a function using composition
+const countWords = R.compose(R.length, R.split);
+
+console.log(countWords(' ', sentence));
+
+// create a function using composition and currying
+const countWords2 = R.compose(R.length, R.split(' '));
+
+console.log(countWords2(sentence));
+
+// create a function using composition (pipe) and currying
+const countWords3 = R.pipe(R.split(' '), R.length);
+
+console.log(countWords3(sentence));
+```
+* Pode-se utilizar a **função `pipe`** do Ramda.js para *compor funções* da esquerda para a direita. 
