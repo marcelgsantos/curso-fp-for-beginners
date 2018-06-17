@@ -470,3 +470,8 @@ console.log(countWords3(sentence));
 
 * O HTML descreve a **estrutura do conteúdo** de uma página web.
 * O DOM é uma **estrutura de dados** que permite que o conteúdo da página seja **alterado** através de programação utilizando JavaScript.
+
+## [21. CSS Introduction](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270726)
+
+* O CSS é uma **linguagem** utilizada para controlar a *formatação*, a *apresentação* e a *aparência geral* de uma página web.
+* Pode-se utilizar uma **biblioteca CSS** para ajudar na *estilização* de páginas web.
