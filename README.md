@@ -515,3 +515,10 @@ node.appendChild(myHeading);
 * A **interface** deve ser renderizada para representar o **estado atual** da aplicação.
 * Deve-se criar **funções pequenas** que podem ser **combinadas apropriadamente** para gerar a interface.
 * Ao se perguntar sobre **quantas funções** criar, devemos levar em consideração o **princípio da responsabilidade única** e criar funções com apenas **uma responsabilidade**.
+
+## [25. HTML and CSS Exercise Review](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270734)
+
+* Pode-se utilizar uma **constante** no lugar de uma função para definir algo que não muda.
+* Como um **programador funcional** estamos interessados em **dados** e **transformação dos dados**.
+* É importante aprender um **estilo de programação** diferente pois permite **melhorar nossas habilidades**.
+* Recomenda-se a **leitura de código** de outros desenvolvedores com frequência.
