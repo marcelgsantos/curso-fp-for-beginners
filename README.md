@@ -535,3 +535,12 @@ node.appendChild(myHeading);
 * Utilizam-se **funções puras** pois elas são *reutilizáveis*, *componíveis*, *fáceis de testar*, *fáceis de cachear* e *paralelizáveis*.
 * A **programação funcional** não é sobre não ter **estado** e sim sobre **eliminar** *estados* e *efeitos colaterais* sempre que possível e **controlar** os *efeitos colaterais* quando necessários.
 * A **maioria dos bugs** são relacionados ao **controle de estado**.
+
+## [28. Development Environment Setup](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270742)
+
+* É importante **construir uma aplicação** para **compreender** a *estrutura da aplicação* e como realizar a *manutenção de estado*.
+* Pode-se utilizar o Webpack para realizar o **build da aplicação** e **rodar o servidor web** durante o desenvolvimento.
+* O Webpack, junto com o Babel, é responsável por **orquestrar** a *compilação do JavaScript* da *sintaxe mais recente* para uma *sintaxe mais antiga* compatível com todos os navegadores.
+* O Webpack é responsável também pela **criação do bundle** com o código JavaScript da sua aplicação (transformado pelo Babel) e das bibliotecas Ramda.js e HyperScript.
+* O Webpack disponibiliza um **servidor web** para realizar os testes da aplicação.
+* O Webpack **monitora** qualquer **alteração no código da aplicação** e quando uma *alteração acontecer* o Webpack *recompilará o código* e *atualizará a página automaticamente*.
