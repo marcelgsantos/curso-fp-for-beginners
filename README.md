@@ -475,3 +475,18 @@ console.log(countWords3(sentence));
 
 * O CSS é uma **linguagem** utilizada para controlar a *formatação*, a *apresentação* e a *aparência geral* de uma página web.
 * Pode-se utilizar uma **biblioteca CSS** para ajudar na *estilização* de páginas web.
+
+## [22. Tachyons CSS Library](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270728)
+
+* Utilizar CSS **não é fácil** como parece e muitos sites utilizam-no de forma **complexa** e **incoerente**.
+* Muitos sites possuem *regras duplicadas*, *sempre crescem* e *nunca diminuem*.
+* A tentativa de **remover regras** pode causar *insegurança* de quebrar algo acidentalmente.
+* É **difícil** manter CSS em projetos de longa duração.
+* Devemos nos perguntar **como podemos evitar** que um CSS cresça?
+* A resposta para isso é sobre **como utilizamos** o CSS.
+* Em bibliotecas como o Bootstrap existem **classes para botões** e suas variações. E, quando necessário, criamos **variações adicionais**.
+* Em bibliotecas como a Tachyons **não existem** classes de botões. Para criar botões deve-se **combinar** ou **compor** diversas classes **muito simples** e **genéricas**.
+* A Tachyons possui **diversas classes** *muito simples* e *que fazem apenas uma coisa*.
+* Pode-se utilizar a classe `pa3` para adicionar um *padding*, para *todos os lados* e no *tamanho 3* (numa escala de 1 a 7).
+* A **escala** é feita em *múltiplos de 2* para gerar um número inteiro e não ocasionar em problemas com subpixels em diferentes navegadores e diferentes tamanhos de tela.
+* A abordagem de **compor** e **combinar classes** em Tachyons é semelhante a **programação funcional**.
