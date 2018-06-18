@@ -528,3 +528,10 @@ node.appendChild(myHeading);
 * Existem diversos estilos de programação como a **programação imperativa** e a **programação declarativa**.
 * A programação funcional segue a **programação declarativa**.
 * Os códigos feitos utilizando jQuery são, na maioria das vezes, **imperativos**.
+
+## [27. What Is Functional Programming?](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270740)
+
+* A **programação funcional** é um estilo de programação que utiliza **funções puras**.
+* Utilizam-se **funções puras** pois elas são *reutilizáveis*, *componíveis*, *fáceis de testar*, *fáceis de cachear* e *paralelizáveis*.
+* A **programação funcional** não é sobre não ter **estado** e sim sobre **eliminar** *estados* e *efeitos colaterais* sempre que possível e **controlar** os *efeitos colaterais* quando necessários.
+* A **maioria dos bugs** são relacionados ao **controle de estado**.
