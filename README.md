@@ -509,3 +509,9 @@ const node = document.getElementById('app');
 
 node.appendChild(myHeading);
 ```
+
+## [24. Transforming Data into HTML and CSS](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270732)
+
+* A **interface** deve ser renderizada para representar o **estado atual** da aplicação.
+* Deve-se criar **funções pequenas** que podem ser **combinadas apropriadamente** para gerar a interface.
+* Ao se perguntar sobre **quantas funções** criar, devemos levar em consideração o **princípio da responsabilidade única** e criar funções com apenas **uma responsabilidade**.
