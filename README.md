@@ -479,7 +479,7 @@ console.log(countWords3(sentence));
 ## [22. Tachyons CSS Library](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270728)
 
 * Utilizar CSS **não é fácil** como parece e muitos sites utilizam-no de forma **complexa** e **incoerente**.
-* Muitos sites possuem *regras duplicadas*, *sempre crescem* e *nunca diminuem*.
+* Muitos sites possuem *regras duplicadas*, que *sempre crescem* e *nunca diminuem*.
 * A tentativa de **remover regras** pode causar *insegurança* de quebrar algo acidentalmente.
 * É **difícil** manter CSS em projetos de longa duração.
 * Devemos nos perguntar **como podemos evitar** que um CSS cresça?
@@ -490,3 +490,22 @@ console.log(countWords3(sentence));
 * Pode-se utilizar a classe `pa3` para adicionar um *padding*, para *todos os lados* e no *tamanho 3* (numa escala de 1 a 7).
 * A **escala** é feita em *múltiplos de 2* para gerar um número inteiro e não ocasionar em problemas com subpixels em diferentes navegadores e diferentes tamanhos de tela.
 * A abordagem de **compor** e **combinar classes** em Tachyons é semelhante a **programação funcional**.
+
+## [23. Generating HTML and CSS](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270730)
+
+* Em programação funcional, diferentemente de programação orientada a objetos, deve-se manter **dados** e **funções** o mais separado possível.
+* Pode-se utilizar a biblioteca `hyperscript` e `hyperscript-helpers` para auxiliar na **transformação** de estruturas de dados em elementos HTML.
+```javascript
+// 01 - using the libraries hyperscript and hyperscript-helpers
+// to transform data structures in HTML elements
+
+const { h1 } = tags;
+
+const myHeading = h1('Hello World');
+
+console.log(myHeading.outerHTML); // "<h1>Hello World</h1>"
+
+const node = document.getElementById('app');
+
+node.appendChild(myHeading);
+```
