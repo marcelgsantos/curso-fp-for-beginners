@@ -522,3 +522,9 @@ node.appendChild(myHeading);
 * Como um **programador funcional** estamos interessados em **dados** e **transformação dos dados**.
 * É importante aprender um **estilo de programação** diferente pois permite **melhorar nossas habilidades**.
 * Recomenda-se a **leitura de código** de outros desenvolvedores com frequência.
+
+## [26. Declarative Programming](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270738)
+
+* Existem diversos estilos de programação como a **programação imperativa** e a **programação declarativa**.
+* A programação funcional segue a **programação declarativa**.
+* Os códigos feitos utilizando jQuery são, na maioria das vezes, **imperativos**.
