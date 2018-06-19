@@ -552,3 +552,8 @@ node.appendChild(myHeading);
 * Uma **função *view*** é uma função que **transforma** o *modelo de dados* na *representação visual* (HTML e CSS) que será exibida no navegador.
 * Não são permitidos **efeitos colaterais** nas **funções *update*** e ***view***.
 * Onde os **efeitos colaterais** são permitidos?
+
+## [30. View Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270748)
+
+* A **função *view*** deve receber como argumento a ***model*** representando o **estado atual** e retornar uma **representação visual**  do mesmo.
+* Recomenda-se criar um valor *initModel* para o **estado inicial** da aplicação.
