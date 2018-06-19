@@ -544,3 +544,11 @@ node.appendChild(myHeading);
 * O Webpack é responsável também pela **criação do bundle** com o código JavaScript da sua aplicação (transformado pelo Babel) e das bibliotecas Ramda.js e HyperScript.
 * O Webpack disponibiliza um **servidor web** para realizar os testes da aplicação.
 * O Webpack **monitora** qualquer **alteração no código da aplicação** e quando uma *alteração acontecer* o Webpack *recompilará o código* e *atualizará a página automaticamente*.
+
+## [29. Planning The App](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270744)
+
+* Os ***building blocks*** de uma aplicação feita utilizando programação funcional são **dados imutáveis** e **funções puras**.
+* Uma **função *update*** é uma função que **atualiza** o *modelo de dados* de acordo com as *interações* que ocorrem na aplicação.
+* Uma **função *view*** é uma função que **transforma** o *modelo de dados* na *representação visual* (HTML e CSS) que será exibida no navegador.
+* Não são permitidos **efeitos colaterais** nas **funções *update*** e ***view***.
+* Onde os **efeitos colaterais** são permitidos?
