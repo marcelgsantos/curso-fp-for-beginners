@@ -19,5 +19,16 @@ function view(model) {
     ]);
 }
 
+function update(msg, model) {
+    switch(msg) {
+        case 'plus':
+            return model + 1;
+        case 'minus':
+            return model - 1;
+        default:
+            return model;
+    }
+}
+
 const root = document.getElementById('app');
-root.appendChild(view(initModel));
+root.appendChild(view(update('minus', initModel)));

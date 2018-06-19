@@ -557,3 +557,7 @@ node.appendChild(myHeading);
 
 * A **função *view*** deve receber como argumento a ***model*** representando o **estado atual** e retornar uma **representação visual**  do mesmo.
 * Recomenda-se criar um valor *initModel* para o **estado inicial** da aplicação.
+
+## [31. Update Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270750)
+
+* A **função *update*** deve receber como argumentos uma **mensagem** que indica *qual interação foi realizada* e uma **model** que *representa o estado atual da aplicação* e deve retornar uma **model** que *representa o novo estado atual da aplicação*.
