@@ -607,3 +607,9 @@ node.appendChild(myHeading);
 ## [37. Planning - View Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270770)
 
 * Deve-se ter uma **função de *view* principal** e várias **funções de *view* mais específicas** para representar pedaços menores da aplicação.
+
+## [38. Planning - Update Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270774)
+
+* As **funções de *update*** são aquelas que serão **executadas** quando ocorrer alguma **interação na aplicação** como *adicionar*, *alterar* ou *remover* algo.
+* Uma **função de *update*** recebe como parâmetro a **mensagem** que *indica que uma interação aconteceu* e o **estado atual** da aplicação.
+* Recomenda-se **mapear** todas as **possíveis interações** que podem ocorrer na aplicação.
