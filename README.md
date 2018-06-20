@@ -603,3 +603,7 @@ node.appendChild(myHeading);
 
 * O **modelo de dados** de uma aplicação pode ser de **qualquer tipo**. Desde o mais simples como um *número inteiro* até um *objeto* mais complexo.
 * Normalmente utilizam-se **objetos** para a representação do **modelo de dados** de uma aplicação.
+
+## [37. Planning - View Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270770)
+
+* Deve-se ter uma **função de *view* principal** e várias **funções de *view* mais específicas** para representar pedaços menores da aplicação.
