@@ -569,3 +569,13 @@ node.appendChild(myHeading);
 * Porém, é necessária uma **função** que controle o *estado da aplicação* e que *reproduza as alterações no DOM* que são, essencialmente, **efeitos colaterais**.
 * Devemos nos lembrar sempre dos **princípios de programação funcional** que é *eliminar os efeitos colaterais* quando possível e *controlar os efeitos colaterais* quando necessário.
 * A **alteração do estado** e a **manipulação DOM** é feito por **funções impuras**.
+
+## [33. Counter Improvements](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270756)
+
+* Na programação funcional deve-se ter mais **funções puras** do que **funções impuras**.
+* Uma aplicação que utiliza **programação funcional** crescerá em número de **funções puras**.
+* A parte da aplicação que contém **funções impuras** quase não crescerá.
+* O **desempenho da aplicação** pode não ser o ideal pois toda a **árvore do DOM** é reconstruída a cada interação do usuário.
+* A **renderização** de elementos na tela é uma **operação cara** e isso deve ser levado em consideração em **aplicações maiores**.
+* Pode-se utilizar uma biblioteca de ***virtual DOM*** para ter um **melhor desempenho** na renderização de elementos na tela.
+* Uma biblioteca de **virtual DOM** realiza o **cálculo da diferença** entra a *view* e a *representação do DOM* e obtém o **menor número de alterações** que devem ser realizadas no DOM.

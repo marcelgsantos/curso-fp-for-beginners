@@ -8,16 +8,21 @@ const initModel = 0;
 function view(dispatch, model) {
     return div([
         div({ className: 'mv2' }, `Count: ${model}`),
-        button({className: 'pv1 ph2 mr2', onclick: () => dispatch('plus')}, '+'),
-        button({className: 'pv1 ph2', onclick: () => dispatch('minus') }, '-'),
+        button({className: 'pv1 ph2 mr2', onclick: () => dispatch(Msg.ADD)}, '+'),
+        button({className: 'pv1 ph2', onclick: () => dispatch(Msg.SUBTRACT) }, '-'),
     ]);
 }
 
+const Msg = {
+    ADD: 'ADD',
+    SUBTRACT: 'SUBTRACT',
+};
+
 function update(msg, model) {
     switch(msg) {
-        case 'plus':
+        case Msg.ADD:
             return model + 1;
-        case 'minus':
+        case Msg.SUBTRACT:
             return model - 1;
         default:
             return model;
