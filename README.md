@@ -598,3 +598,8 @@ node.appendChild(myHeading);
 * A **transformação dos dados** podem ser através das **funções *view*** que transforma o modelo de dados em uma *representação visual* e das **funções *update*** que transforma o modelo de dados em um *novo modelo de dados*.
 * Dominar o **processo de planejamento** é crucial para o **sucesso** como programador.
 * O **bom planejamento** evita o **desperdício de tempo** e **frustrações** durante a carreira como programador.
+
+## [36. Planning - Data Model](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270762)
+
+* O **modelo de dados** de uma aplicação pode ser de **qualquer tipo**. Desde o mais simples como um *número inteiro* até um *objeto* mais complexo.
+* Normalmente utilizam-se **objetos** para a representação do **modelo de dados** de uma aplicação.
