@@ -579,3 +579,7 @@ node.appendChild(myHeading);
 * A **renderização** de elementos na tela é uma **operação cara** e isso deve ser levado em consideração em **aplicações maiores**.
 * Pode-se utilizar uma biblioteca de ***virtual DOM*** para ter um **melhor desempenho** na renderização de elementos na tela.
 * Uma biblioteca de **virtual DOM** realiza o **cálculo da diferença** entra a *view* e a *representação do DOM* e obtém o **menor número de alterações** que devem ser realizadas no DOM.
+
+## [34. Adding a Virtual DOM](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270758)
+
+* Recomenda-se utilizar uma biblioteca de ***virtual DOM*** no projeto para ter um **melhor desempenho** na renderização de elementos na tela.
