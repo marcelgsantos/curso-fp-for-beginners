@@ -583,3 +583,18 @@ node.appendChild(myHeading);
 ## [34. Adding a Virtual DOM](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270758)
 
 * Recomenda-se utilizar uma biblioteca de ***virtual DOM*** no projeto para ter um **melhor desempenho** na renderização de elementos na tela.
+
+## [35. Planning](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270760)
+
+* Recomenda-se **planejar** a construção de uma aplicação.
+* O **planejamento** é importante para sabermos em que **etapa do planejamento** nos encontramos e como alcançar o **objetivo final**.
+* Não é possível ter uma **visão mais ampla** de um projeto quando não se há **planejamento**.
+* Uma decisão errada pode custar **desperdício de tempo** e de **dinheiro**.
+* É importante ter uma **visão geral** dos **objetivos** e os **passos necessários** para alcançá-los.
+* Recomenda-se criar **wireframes** da aplicação que se pretende construir.
+* o wireframe é como se fosse a **linha de chegada** de todo o *processo de planejamento* e *execução*.
+* Em linhas gerais devemos **identificar os componentes** principais de uma aplicação.
+* Em uma aplicação que utiliza programação funcional deve-se olhar para os **dados** que representa o *estado aplicação* e para as **funções** que realizam *transformações sobre estes dados*.
+* A **transformação dos dados** podem ser através das **funções *view*** que transforma o modelo de dados em uma *representação visual* e das **funções *update*** que transforma o modelo de dados em um *novo modelo de dados*.
+* Dominar o **processo de planejamento** é crucial para o **sucesso** como programador.
+* O **bom planejamento** evita o **desperdício de tempo** e **frustrações** durante a carreira como programador.
