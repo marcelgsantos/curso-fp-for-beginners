@@ -561,3 +561,11 @@ node.appendChild(myHeading);
 ## [31. Update Functions](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270750)
 
 * A **função *update*** deve receber como argumentos uma **mensagem** que indica *qual interação foi realizada* e uma **model** que *representa o estado atual da aplicação* e deve retornar uma **model** que *representa o novo estado atual da aplicação*.
+
+## [32. App Function](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270752)
+
+* Um **aplicação** é inútil sem **efeitos colaterais**.
+* Uma **aplicação** contém o *estado inicial*, uma *função update* e uma *função view*.
+* Porém, é necessária uma **função** que controle o *estado da aplicação* e que *reproduza as alterações no DOM* que são, essencialmente, **efeitos colaterais**.
+* Devemos nos lembrar sempre dos **princípios de programação funcional** que é *eliminar os efeitos colaterais* quando possível e *controlar os efeitos colaterais* quando necessário.
+* A **alteração do estado** e a **manipulação DOM** é feito por **funções impuras**.
