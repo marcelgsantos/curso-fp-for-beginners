@@ -613,3 +613,10 @@ node.appendChild(myHeading);
 * As **funções de *update*** são aquelas que serão **executadas** quando ocorrer alguma **interação na aplicação** como *adicionar*, *alterar* ou *remover* algo.
 * Uma **função de *update*** recebe como parâmetro a **mensagem** que *indica que uma interação aconteceu* e o **estado atual** da aplicação.
 * Recomenda-se **mapear** todas as **possíveis interações** que podem ocorrer na aplicação.
+
+## [39. Starter and Boilerplate](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270780)
+
+* Recomenda-se **criar** diferentes **módulos** ou **arquivos** para organizar a sua aplicação.
+* O **tipo *null*** é causador de **inúmeros bugs** em programação.
+* **O tipo *null*** é conhecido como o *"Billion-Dollar Mistake"* pois já foram gastas **milhares de horas** já depurando aplicações procurando por erros causados por ele.
+* O arquivo `App.js` é o que conterá **funções impuras**.
