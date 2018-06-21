@@ -620,3 +620,7 @@ node.appendChild(myHeading);
 * O **tipo *null*** é causador de **inúmeros bugs** em programação.
 * **O tipo *null*** é conhecido como o *"Billion-Dollar Mistake"* pois já foram gastas **milhares de horas** já depurando aplicações procurando por erros causados por ele.
 * O arquivo `App.js` é o que conterá **funções impuras**.
+
+## [40. Calorie Counting App - Form View](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270784)
+
+* Existem **6 valores** em JavaScript que são considerados *falsy*, são eles `false`, `0`, `""`. `null`, `undefined` e `NaN`. O restante dos valores são considerador *truthy*.
