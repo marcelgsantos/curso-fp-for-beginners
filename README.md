@@ -624,3 +624,14 @@ node.appendChild(myHeading);
 ## [40. Calorie Counting App - Form View](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270784)
 
 * Existem **6 valores** em JavaScript que são considerados *falsy*, são eles `false`, `0`, `""`. `null`, `undefined` e `NaN`. O restante dos valores são considerador *truthy*.
+* O arquivo `App.js` é o que conterá **funções impuras**.
+
+## [41. Calorie Counting App - Updates](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270786)
+
+* Existem **duas formas** de fazer um export em JavaScript: o ***default export*** e o ***named export***.
+* Só pode existir um ***default export*** por arquivo, porém, podem existir vários ***named export***.
+* A diferença entre as **duas formas** de export é a sintaxe utilizada no momento de **importação**.
+* O **default export** é feito como em `import $ from 'jquery'` e o **named export** é feito como em `import { curry } from 'ramda'`.
+* A **mensagem** utilizada pela aplicação pode *ser um objeto*, isso permite carregar o **identificador da mensagem** e uma **informação adicional** ou ***payload***.
+* Ao utilizar a abordagem anterior, a **função de *update*** pode utilizar a **informação adicional** para uma **tomada de decisão**.
+* Pode-se utilizar uma **função** para retornar o **objeto de mensagem** para tornar mais clara a **intenção da mensagem**.

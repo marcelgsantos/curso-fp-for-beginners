@@ -1,4 +1,4 @@
-import { h, diff, patch } from 'virtual-dom';
+import { diff, patch } from 'virtual-dom';
 import createElement from 'virtual-dom/create-element';
 
 function app(initModel, update, view, node) {
