@@ -635,3 +635,12 @@ node.appendChild(myHeading);
 * A **mensagem** utilizada pela aplicação pode *ser um objeto*, isso permite carregar o **identificador da mensagem** e uma **informação adicional** ou ***payload***.
 * Ao utilizar a abordagem anterior, a **função de *update*** pode utilizar a **informação adicional** para uma **tomada de decisão**.
 * Pode-se utilizar uma **função** para retornar o **objeto de mensagem** para tornar mais clara a **intenção da mensagem**.
+
+## [42. Calorie Counting App - Input Updates](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270788)
+
+* Os passos para adicionar uma **nova funcionalidade** na aplicação são:
+    1. criar um novo **tipo de mensagem** no objeto `Msg`
+    2. criar uma função que **retorna um objeto** que representa uma **nova mensagem**
+    3. criar uma declaração `case` para **novas mensagens** na **função *update***
+    4. gerar e enviar **novas mensagens**
+* A função `R.defaultTo` do Ramda.js permite retorna um **valor padrão** caso o argumento seja `null`, `undefined` ou `NaN`.
