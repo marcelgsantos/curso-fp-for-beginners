@@ -644,3 +644,7 @@ node.appendChild(myHeading);
     3. criar uma declaração `case` para **novas mensagens** na **função *update***
     4. gerar e enviar **novas mensagens**
 * A função `R.defaultTo` do Ramda.js permite retorna um **valor padrão** caso o argumento seja `null`, `undefined` ou `NaN`.
+
+## [43. Calorie Counting App - Form Save](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270790)
+
+* Quando não é necessária a *utilização de um payload* para a criação de uma mensagem, pode-se utilizar uma **constante** no lugar de uma **função**.
