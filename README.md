@@ -648,3 +648,7 @@ node.appendChild(myHeading);
 ## [43. Calorie Counting App - Form Save](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270790)
 
 * Quando não é necessária a *utilização de um payload* para a criação de uma mensagem, pode-se utilizar uma **constante** no lugar de uma **função**.
+
+## [44. Calorie Counting App - Tableview Challenge Review](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270796)
+
+* Pode-se utilizar a função `R.partial` da biblioteca Ramda.js para realizar a **aplicação parcial** de argumentos em uma função não-curried.
