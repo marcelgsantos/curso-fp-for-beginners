@@ -652,3 +652,7 @@ node.appendChild(myHeading);
 ## [44. Calorie Counting App - Tableview Challenge Review](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270796)
 
 * Pode-se utilizar a função `R.partial` da biblioteca Ramda.js para realizar a **aplicação parcial** de argumentos em uma função não-curried.
+
+## [45. Calorie Counting App - Delete Meals](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270800)
+
+* Pode-se utilizar a função `R.filter` da biblioteca Ramda.js para realizar o **filtro** de dados de um array.
