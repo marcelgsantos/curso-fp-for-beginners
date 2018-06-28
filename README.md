@@ -656,3 +656,7 @@ node.appendChild(myHeading);
 ## [45. Calorie Counting App - Delete Meals](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270800)
 
 * Pode-se utilizar a função `R.filter` da biblioteca Ramda.js para realizar o **filtro** de dados de um array.
+
+## [46. Calorie Counting App - Edit Meals](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270802)
+
+* Pode-se utilizar a função `R.find` da biblioteca Ramda.js para **encontrar um valor** de acordo com um **critério específico** em um array.
