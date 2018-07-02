@@ -660,3 +660,10 @@ node.appendChild(myHeading);
 ## [46. Calorie Counting App - Edit Meals](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270802)
 
 * Pode-se utilizar a função `R.find` da biblioteca Ramda.js para **encontrar um valor** de acordo com um **critério específico** em um array.
+
+## [47. Temperature Unit Conversion Application - Application Introduction](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270804)
+
+* Uma aplicação é composta por um **modelo inicial**, uma **função de *update***, uma **função de *view*** e uma **função de *app***.
+* Às vezes se tem o **conhecimento** mas não se tem o ***know-how***.
+* Para adquirir o ***know-how*** é necessária **muita prática**.
+* Um habilidade muito utilizada em programação funcional é a **composição de funções**.
