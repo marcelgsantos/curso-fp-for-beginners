@@ -667,3 +667,9 @@ node.appendChild(myHeading);
 * Às vezes se tem o **conhecimento** mas não se tem o ***know-how***.
 * Para adquirir o ***know-how*** é necessária **muita prática**.
 * Um habilidade muito utilizada em programação funcional é a **composição de funções**.
+
+## [48. Temperature Unit Conversion Application - Data Model](https://www.udemy.com/functional-programming-for-beginners-with-javascript/learn/v4/t/lecture/9270806)
+
+* As dicas para a **modelagem de dados** são:
+    1. codificar as **partes óbvias**
+    2. considerar as **interações** que podem *ocorrer* na aplicação e como a aplicação deve *responder* as essas interações
